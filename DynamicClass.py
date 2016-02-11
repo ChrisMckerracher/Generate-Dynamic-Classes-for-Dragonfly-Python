@@ -18,6 +18,6 @@ class filter():
 
 
 for i in filter.phrases:
-    filter.grammar.add_rule(metafilters.__new__(metafilters, i, (genericFilter,), {'spec': i})())
+    filter.grammar.add_rule(metafilters(i, (genericFilter,), {'spec': i})())
 
 filter.grammar.load()
