@@ -14,7 +14,7 @@ class metafilters(type):
 
 class filter():
     phrases = ["genericclass1", "genericclass2", "genericclass3"]
-    grammar = Grammar("mishear")
+    grammar = Grammar("generic")
 
 
 for i in filter.phrases:
