@@ -1,0 +1,1 @@
+I created this module with the intention to help resolve Dragonfly misattributing certain phrases to a command, by giving specific phrases their own 'empty' command. Some people may find use though in being able to implement generic classes like this.
